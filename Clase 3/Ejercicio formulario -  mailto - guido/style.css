@@ -1,0 +1,42 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+header{
+font-size: large;
+text-align: center;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+form{
+  font-family: 'Courier New', Courier, monospace;
+  width: 200px;
+  margin: 50px auto;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background: rgb(235, 232, 232);
+  
+}
+
+input[type = "submit"]{
+  border: 2px solid grey;
+  border-radius: 5x;
+  padding: 3px;
+  margin-bottom: 3px;
+  border-radius: 20px;
+}
+
+input[type = "submit"]:hover{
+  border: 2px solid black;
+  
+}
+
