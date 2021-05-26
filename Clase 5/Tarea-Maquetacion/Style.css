@@ -69,10 +69,12 @@ main{
 }
 
 
+
 main section{
    border: 2px solid #D8A7B1;
   align-items: flex-end;
   background: #fdfcdc;
+  margin: 2px;
 }
 .Section1{
     width: 50%;
