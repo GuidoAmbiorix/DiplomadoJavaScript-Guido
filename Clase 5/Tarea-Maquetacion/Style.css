@@ -9,7 +9,7 @@ text-decoration: none;
 nav{
     border: 2px solid #fed9b7;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background:#00afb9 ;
 }
@@ -43,10 +43,10 @@ nav div >ul{
 }
 
 nav div >ul>li{
-    border: 2px solid #FAE8E0;
+   
     border-radius: 15%;
     padding: 10px;
-    background: #B6E2D3;
+  
 }
 
 nav div >ul>li:hover{
@@ -147,16 +147,16 @@ footer{
 
 
 .Menu-oculto ul li ul li{
-    border: 2px solid #FAE8E0;
+   
     border-radius: 15%;
     padding: 10px;
-    background: #B6E2D3;
+  
 }
 .Menu-oculto ul li ul li{
    
     padding: 5px;
     margin: 2px;
-    border: 2px solid #B6E2D3;
+    
     border-radius: 20%;
     
 }
