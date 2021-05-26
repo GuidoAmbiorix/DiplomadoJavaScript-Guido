@@ -1,0 +1,173 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+nav{
+    border: 2px solid #fed9b7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#00afb9 ;
+}
+
+
+nav .Logotipo{
+    margin-left: 10px;
+}
+
+
+nav .Logotipo:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.Menu-oculto {
+display: none;
+
+
+}
+
+
+nav div >ul{
+   
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+nav div >ul>li{
+    border: 2px solid #FAE8E0;
+    border-radius: 15%;
+    padding: 10px;
+    background: #B6E2D3;
+}
+
+nav div >ul>li:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    background: #fed9b7;
+    cursor: pointer;
+   
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: white;
+}
+
+main{
+    display: flex;
+    border: 2px solid #D8A7B1;
+    height: 545px;
+}
+
+
+main section{
+   border: 2px solid #D8A7B1;
+  align-items: flex-end;
+  background: #fdfcdc;
+}
+.Section1{
+    width: 50%;
+}
+
+
+main aside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+main aside section{
+    height: 100%;
+   
+}
+
+
+footer{
+    border: 2px solid #FAE8E0;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#B6E2D3 ; 
+   
+}
+
+@media only screen and (max-width: 650px) {
+    
+    nav div >ul>li{
+        border:none;
+        border-radius: 15%;
+        padding: 1px;
+        background: none;
+    }
+
+    .Menu ul{
+   
+      display: none;
+      
+    }
+
+    
+  .Menu-oculto {
+        display: flex;
+       
+		
+    }
+
+    .Menu-oculto  ul{
+        
+       justify-content: flex-end;
+       padding: 0;
+		margin: 0;
+		list-style: none;
+	
+    }
+    .Menu-oculto  i {
+        display: block;
+		padding: 2em;
+        color: white;
+      
+  }
+
+  .Menu-oculto  i:hover {
+   
+    color: white;
+    
+}
+
+.Menu-oculto ul li ul{
+    display: none;
+}
+.Menu-oculto ul li ul li{
+   
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #B6E2D3;
+    border-radius: 20%;
+    
+}
+
+.Menu-oculto ul li i:hover + ul, .Menu-oculto ul li ul:hover {
+    display: flex;
+    flex-direction: row;
+    
+   
+   
+}
+
+nav div >ul>li:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    background:none;
+    cursor: pointer;
+}
+}

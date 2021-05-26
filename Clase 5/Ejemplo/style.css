@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+main{
+   display: flex;
+   flex-flow: row;
+}
+
+section{
+color: white;
+font-size: 20px;
+border:2px solid lightsalmon;
+width: 200px;
+height: 200px;
+padding: 5px;
+margin: 5px;
+
+}
+
+ul li{
+   padding: 0;
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid lightgreen;
+
+}
+
+
+.section1{
+    background-color: lightpink;
+   
+}
+
+.section2{
+    background-color: lightblue;
+}
