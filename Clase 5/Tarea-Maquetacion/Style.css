@@ -31,7 +31,6 @@ nav .Logotipo:hover{
 .Menu-oculto {
 display: none;
 
-
 }
 
 
@@ -110,19 +109,20 @@ footer{
         border-radius: 15%;
         padding: 1px;
         background: none;
+       
+            
     }
 
     .Menu ul{
    
       display: none;
-      
+     
     }
 
     
   .Menu-oculto {
         display: flex;
-       
-		
+        
     }
 
     .Menu-oculto  ul{
@@ -140,14 +140,17 @@ footer{
       
   }
 
-  .Menu-oculto  i:hover {
-   
-    color: white;
-    
-}
 
 .Menu-oculto ul li ul{
     display: none;
+}
+
+
+.Menu-oculto ul li ul li{
+    border: 2px solid #FAE8E0;
+    border-radius: 15%;
+    padding: 10px;
+    background: #B6E2D3;
 }
 .Menu-oculto ul li ul li{
    
@@ -158,18 +161,26 @@ footer{
     
 }
 
-.Menu-oculto ul li i:hover + ul, .Menu-oculto ul li ul:hover {
-    display: flex;
-    flex-direction: row;
-    
-   
+.Menu-oculto ul li ul li:hover{
+    transition-property: all;
+    transition-duration: 1s;
+    background: #fed9b7;
+    cursor: pointer;
    
 }
 
+.Menu-oculto ul li i:hover + ul, .Menu-oculto ul li ul:hover {
+    
+    display: flex;
+    flex-direction: row;
+}
+
 nav div >ul>li:hover{
-    transition-property: all;
-    transition-duration: 1s;
+    
     background:none;
     cursor: pointer;
+   
 }
+
+
 }
