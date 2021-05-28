@@ -30,32 +30,27 @@ nav .Logotipo:hover{
 
 .Menu-oculto {
 display: none;
-
 }
 
 
 nav div >ul{
-   
     flex-basis: 400px;
     display: flex;
-    justify-content: space-around;
-  
 }
 
 nav div >ul>li{
-   
     border-radius: 15%;
-    padding: 10px;
-  
+    padding: 15px;
+    margin-right: 10px;
 }
 
 nav div >ul>li:hover{
     transition-property: all;
-    transition-duration: 1s;
+    transition-duration: 2s;
     background: #1077a0;
     cursor: pointer;
-   
 }
+
 a:link, a:visited, a:active {
   text-decoration:none;
   color: white;
@@ -75,6 +70,7 @@ main section{
   background: #fdfcdc;
   margin: 2px;
 }
+
 .Section1{
     flex-basis: 50%;
 }
@@ -88,7 +84,6 @@ main aside{
 
 main aside section{
     height: 100%;
-   
 }
 
 
@@ -99,48 +94,37 @@ footer{
     justify-content: center;
     align-items: center;
     background:#B6E2D3 ; 
-   
 }
 
 @media only screen and (max-width: 600px) {
     
-    
-   
-
     nav div >ul>li{
         border:none;
         border-radius: 15%;
         padding: 1px;
         background: none;
-       
-            
     }
 
     .Menu ul{
-   
       display: none;
-     
     }
 
     
   .Menu-oculto {
         display: flex;
-        
     }
 
     .Menu-oculto  ul{
-        
        justify-content: flex-end;
        padding: 0;
 		margin: 0;
 		list-style: none;
-	
     }
+
     .Menu-oculto  i {
         display: block;
 		padding: 2em;
         color: white;
-      
   }
 
 
@@ -150,11 +134,10 @@ footer{
 
 
 .Menu-oculto ul li ul li{
-   
     border-radius: 15%;
     padding: 10px;
-  
 }
+
 .Menu-oculto ul li ul li{
    
     padding: 5px;
@@ -169,21 +152,15 @@ footer{
     transition-duration: 1s;
     background: #1077a0;
     cursor: pointer;
-   
 }
 
 .Menu-oculto ul li i:hover + ul, .Menu-oculto ul li ul:hover {
-    
     display: flex;
     flex-direction: row;
 }
 
 nav div >ul>li:hover{
-    
     background:none;
     cursor: pointer;
-   
 }
-
-
 }
