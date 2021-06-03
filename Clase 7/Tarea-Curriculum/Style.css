@@ -15,7 +15,7 @@ main{
 /*------------------ASIDE-----------------*/
 main aside{
 
-font-size: large;
+  font-size: large;
   display: flex;
   flex-direction: column;
   background-color: #494e5f;
@@ -24,9 +24,10 @@ font-size: large;
   height: 250vh;
   margin-top: .5rem;
   margin-bottom: .5rem;
-  line-height: 1.5;
   text-align: center;
   color:#ffe7d4;
+  flex-grow: 3;
+  flex-shrink: 5;
 }
 
 main aside img{
@@ -34,7 +35,6 @@ main aside img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
-   
 }
 
 main aside #texto{
