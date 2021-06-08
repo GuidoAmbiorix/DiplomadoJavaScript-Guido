@@ -18,14 +18,14 @@ main aside{
   font-size: large;
   display: flex;
   flex-direction: column;
-  background-color: #494e5f;
+  background-color: #34656d;
   align-content: center;
   width: 35%;
   height: 250vh;
   margin-top: .5rem;
   margin-bottom: .5rem;
   text-align: center;
-  color:#ffe7d4;
+  color:#fffbdf;
   flex-grow: 3;
   flex-shrink: 5;
 }
@@ -67,8 +67,8 @@ main section{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    color: #494e5f;
-    background-color: #fefefa;
+    color: #34656d;
+    background-color: #fff5fd;
     width: 75%;
     height: 250vh;
     
@@ -86,7 +86,7 @@ main section{
   }
 
   main section ul ul{
-      border: 2px solid #ffe7d4;
+      border: 2px solid #c6ffc1;
       width: 70vh;
       margin-bottom: 2rem;
     
@@ -94,7 +94,7 @@ main section{
  
   
   main section ul ul h1{
-      background-color:#ffe7d4;
+      background-color:#c6ffc1;
       width: 70vh;
     text-align: center;
   margin-bottom: 1rem;
