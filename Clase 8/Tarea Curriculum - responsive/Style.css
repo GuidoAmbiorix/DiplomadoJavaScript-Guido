@@ -8,7 +8,8 @@
 
 main{
     display: flex;
-    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 /*------Aside-----*/
@@ -16,7 +17,7 @@ main aside{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 35%;
+    flex-basis: 50%;
     background-color: #34656d;
     color:#fffbdf;
     margin-top: 1rem;
@@ -56,6 +57,8 @@ main aside .texto ul{
 main section {
     color: #34656d;
     background-color: #fff5fd;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 main section ul{
@@ -71,8 +74,7 @@ main section ul{
 main section ul ul{
     border: 2px solid #c6ffc1;
     flex-basis: 20%;
-    width: 65%;
-   
+    width: 60%;
 }
 
 main section ul ul h1{
@@ -95,7 +97,8 @@ main section ul ul h2{
 
     main{
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        width: 100%;
     }
 
     main aside{
