@@ -97,6 +97,10 @@ main section ul ul h2{
     margin-top: 2rem;
   }
 
+  main section i{
+      margin-right: 1rem;
+  }
+
 
 @media (max-width: 576px) { 
 
