@@ -44,13 +44,19 @@ main aside .texto ul{
  }
  main aside .texto ul h1{
      margin-bottom: 2rem;
-    
+     text-align: center;
   }
- 
+  main aside .texto ul h3{
+   text-align: center;
+ }
  
  main aside .texto ul h4{
      margin-bottom: 2rem;
-    
+  }
+
+  main aside .texto ul >*{
+      text-align: left;
+      text-align: justify;
   }
 
   /*------Main Section-----*/
@@ -90,7 +96,6 @@ main section ul ul h2{
     margin-bottom: 1rem;
     margin-top: 2rem;
   }
-  
 
 
 @media (max-width: 576px) { 
