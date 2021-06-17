@@ -18,7 +18,7 @@ let diametroRueda = prompt("Digite el diametro de la rueda: ");
 //Solicitar grosor de la rueda
 let grosorRueda = prompt("Digite el grosor de la rueda: ");
 
-//Si es mayor a 1.4
+//Si el diametro es mayor a 1.4
 if(diametroRueda  > 1.4){alert("La rueda es para un Vehiculo grande");}
 
 //Si es mayor a 0.8 y menor o igual a 1.4
