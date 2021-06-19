@@ -37,10 +37,7 @@ form > *{
   
 }
 
-form [input = "text"] {
-    outline: none;
-    background-color: red;
-}
+
 
 .inputs{
    outline: none;
@@ -79,6 +76,4 @@ form #button:hover{
     height: 300px;
     border-radius: 10px;
     text-align: center;
-    transition-property:width,height;
-    transition-duration: 2s;
 }

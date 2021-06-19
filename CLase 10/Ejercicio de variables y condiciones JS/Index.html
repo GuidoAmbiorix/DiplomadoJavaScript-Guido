@@ -5,9 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio de variables y condiciones</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header>
+        <h1>Ejercicio de variables y condiciones JS</h1>
+    </header>
+
     
+    <main>
+        <form action="">
+            <label for="diametroRueda">Digite el diametro de la rueda</label>
+            <input type="text" id="diametroRueda" class="inputs">
+    
+            <label for="grosorRueda">Digite el grosor de la rueda</label>
+            <input type="text" id="grosorRueda" class="inputs">
+    
+            <button type="button" id="button">Verificar</button>
+        </form>
+       
+        <table>
+            <tr>
+              <th >Diametro De la rueda</th>
+              <th>Grosor de la rueda</th>
+              <th>Vehiculo Grande</th>
+              <th>Vehiculo Mediano</th>
+              <th>Vehiculo Pequeño</th>
+              <th>Grosor recomendado</th>
+            </tr>
+            <tr>
+              <td id="ResultadoDiametro"></td>
+              <td  id="ResultadoGrosor"></td>
+              <td id="VG"></td>
+              <td id="VM"></td>
+              <td id="VP"></td>
+              <td id="GrosorRecomendado"></td>
+           </tr>
+          </table>
+    </main>
 
     <script src="Main.js"></script>
 </body>

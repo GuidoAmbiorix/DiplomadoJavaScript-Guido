@@ -28,7 +28,11 @@
     randomColor.value = "#" + random;
     randomColor.style.color = "white";
     randomColor.style.background = '#' + random; 
-  
-    console.log(ancho.value,altura.value);
+
+
+    contenedor.style.transitionProperty = 'width,height,background';
+    contenedor.style.transitionDuration = '2s';
+    randomColor.style.transitionProperty = 'background';
+    randomColor.style.transitionDuration = '2s';
 
 })
