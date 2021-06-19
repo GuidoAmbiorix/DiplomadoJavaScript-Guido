@@ -101,8 +101,8 @@ td, th {
  .No{
      background-color: rgb(230, 82, 82);
      color: white;
-     transition-property: background;
-     transition-duration: 1.5;
+     transition-property:all;
+     transition-duration: 2s;
  }
 
  .default{
