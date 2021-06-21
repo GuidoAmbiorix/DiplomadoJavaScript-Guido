@@ -11,19 +11,23 @@ const buton = document.getElementById("button");
     const contenedor = document.getElementById("contenedor");
 
     randomColor(contenedor);
+    
     cambiarContenedor(contenedor,ancho,altura);
+   
+  
    });
 
 
 function cambiarContenedor(contenedor,ancho,altura){
   contenedor.style.width = ancho.value+"px";
   contenedor.style.height = altura.value+"px";
-
-   contenedor.innerHTML = "El nuevo ancho es: "+ancho.value+"px Y el nuevo alto es: "+altura.value+"px";
+  contenedor.innerHTML = "El nuevo ancho es: "+ancho.value+"px Y el nuevo alto es: "+altura.value+"px";
   
    contenedor.style.transitionProperty = 'width,height,background';
    contenedor.style.transitionDuration = '2s';
 
+   contenedor.style.fontFamily =  'Georgia', 'Times New Roman', 'Times', 'serif';
+   contenedor.style.fontSize = '20px';
 }
 
 
