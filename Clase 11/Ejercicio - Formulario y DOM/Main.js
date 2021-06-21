@@ -1,21 +1,14 @@
-
-
-
-
 const button = document.getElementById("button");
-
-   button.addEventListener('click',(e) =>{
+  
+button.addEventListener('click',(e) =>{
     const ancho = document.getElementById("ancho");
     const altura = document.getElementById("altura");
-
+      
     const contenedor = document.getElementById("contenedor");
 
     randomColor(contenedor);
-    
     cambiarContenedor(contenedor,ancho,altura);
-   
-  
-   });
+});
 
 
 function cambiarContenedor(contenedor,ancho,altura){
@@ -32,7 +25,6 @@ function cambiarContenedor(contenedor,ancho,altura){
 
 
 function randomColor(contenedor){
-
   let random = Math.random().toString(16).substring(2,8);
 
   const randomColor = document.getElementById("Random");
