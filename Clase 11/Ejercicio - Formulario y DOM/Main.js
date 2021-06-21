@@ -2,9 +2,9 @@
 
 
 
-const buton = document.getElementById("button");
+const button = document.getElementById("button");
 
-   buton.addEventListener('click',(e) =>{
+   button.addEventListener('click',(e) =>{
     const ancho = document.getElementById("ancho");
     const altura = document.getElementById("altura");
 
