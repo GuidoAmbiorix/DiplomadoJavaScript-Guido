@@ -10,6 +10,8 @@ header{
     background-color:#C490E4 ;
     color: #F9F9F9;
     text-align: center;
+    width: 95%;
+    align-self: center;
 }
 
 main{

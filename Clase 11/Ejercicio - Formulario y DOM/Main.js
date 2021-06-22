@@ -31,6 +31,7 @@ function randomColor(contenedor){
 
   contenedor.style.background = "#" + random;
   contenedor.style.color = 'white';
+  
   randomColor.value = "#" + random;
   randomColor.style.color = "white";
   randomColor.style.background = '#' + random; 
