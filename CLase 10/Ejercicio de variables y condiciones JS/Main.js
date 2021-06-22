@@ -33,7 +33,8 @@
         
     });
 
-
+  
+    //Parte a del ejercicio
   function CalcularDiametro(){
 
     const VehiculoG = document.getElementById('VG');
@@ -80,7 +81,7 @@
 
 
   }
-
+  //Parte b del ejercicio
   function CalcularGrosor(){
     const grosorRecomendado = document.getElementById('GrosorRecomendado');  
 
