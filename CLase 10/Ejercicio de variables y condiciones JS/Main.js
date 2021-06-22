@@ -46,8 +46,8 @@
         VehiculoG.innerHTML = 'Si';
         VehiculoM.innerHTML = 'No';
         VehiculoP.innerHTML = 'No';
-
-        VehiculoG.classList.remove('No');
+  
+      VehiculoG.classList.remove('No');
         VehiculoG.classList.add('Si');
         VehiculoM.classList.add('No');
         VehiculoP.classList.add('No');
@@ -87,18 +87,18 @@
 //Si el diametro > 1.4 y grosor <0.4 o diametro>0.8 y diametro<=1.4 y grosor >0.25
 if(diametroRueda.value>1.4 && grosorRueda.value<0.4 || diametroRueda.value>0.8 && diametroRueda.value <= 1.4 && grosorRueda.value<0.25 ){
     
-    grosorRecomendado.innerHTML = 'Si';
+    grosorRecomendado.innerHTML = 'No';
 
-    grosorRecomendado.classList.remove('No');
-    grosorRecomendado.classList.add('Si');
+    grosorRecomendado.classList.add('No');
 
 }
 //Si no se cumple la condicion de arriba, entonces el grosor es el recomendado
 else
 {
-    grosorRecomendado.innerHTML = 'No';
-    
-    grosorRecomendado.classList.add('No');
+    grosorRecomendado.innerHTML = 'Si';
+
+    grosorRecomendado.classList.remove('No');
+    grosorRecomendado.classList.add('Si');
 }
 
   }
