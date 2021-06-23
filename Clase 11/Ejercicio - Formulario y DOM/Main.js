@@ -25,7 +25,10 @@ function cambiarContenedor(contenedor,ancho,altura){
 
 
 function randomColor(contenedor){
-  let random = Math.random().toString(16).substring(2,8);
+  let random = Math.random().toString(16).substring(2,8);;
+
+
+  console.log(random);
 
   const randomColor = document.getElementById("Random");
 
